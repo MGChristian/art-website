@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+
+header{
+    
+    background-color: rgb(243, 243, 238);
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+article{
+    padding-top:5%;
+    padding-bottom:5%;
+}
+
+.logo{
+    
+    margin-left: 20px;
+}
+
+.logo h1{
+    
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+.f5 p{
+    width:100px;
+}
+
+.hero{
+    background-image: url('../website images/New\ Project\ \(39\).png');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero2{
+    background-image: url('../website images/New\ Project\ \(42\).png');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero3{
+    background-image: url('../website images/New\ Project\ \(40\).png');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.nav{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+a{
+    font-weight:700;
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: black;
+}
+
+.nav a:hover{
+    color:orange;
+}
+
+.s img{
+    width: 400px;
+    height:400px;
+    margin-bottom:10px;
+}
+
+.s h1{
+    margin-bottom:10px;
+}
+
+.f3 {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.s{
+    background-color: blue;
+    width: 400px;
+    height:650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer{
+    font-weight:700;
+    padding:10px;
+    height:180px;
+    background-color: rgb(243, 243, 238);
+}
+
+footer a{
+    color:grey;
+}
+
+.f{
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    height:100%;
+}
+
+.f1, .f2{
+    margin-bottom:10px;
+    width: 100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.f1{
+    border-right:1px solid gray;
+}
+
+
+.f p{
+    width:300px;
+}
+
+.hero h1, .hero2 h1, .hero3 h1{
+    font-size:50px;
+    color:white;
+    text-shadow: 5px 5px 5px black;
+}
+
+.f5 p{
+    width:150px;
+}
