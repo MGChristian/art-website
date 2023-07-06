@@ -79,7 +79,7 @@ article{
 .dancing-content{
     display:flex;
     margin-bottom:10px;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .dancing-content h1{
@@ -92,7 +92,12 @@ article{
     color:grey;
 }
 
+.v-left{
+    padding-right:2%;
+}
+
 .right{
+    padding-left:2%;
     width:600px;
 }
 
